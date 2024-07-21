@@ -1,8 +1,11 @@
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
+
+    width: 1158px;
 }
+
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -12,6 +15,8 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+
+    padding-top: 20px;
 
 }
 
@@ -46,6 +51,11 @@ body {
 .address-link:hover,
 .address-link:focus {
     color: #404bbf;
+}
+
+.section {
+    margin: 120px 0;
+    border-bottom: 1 px solid currentColor;
 }
 
 .section-odd {
@@ -156,4 +166,23 @@ body {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 156px;
+    border-bottom: 2px solid #efefef;
+}
+
+nav {
+    display: flex;
+    gap: 76px
+}
+
+.left-navigation,
+.right-navigation {
+    display: flex;
+    list-style-type: none;
+    gap: 40px
 }
